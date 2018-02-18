@@ -7,7 +7,7 @@
 
 				#list {
 				    list-style-type: none;
-				    margin: 0;
+				    margin: auto;
 				    padding: 0;
 				    padding-bottom:0;
 				    overflow: hidden;
@@ -15,8 +15,9 @@
 				    font-family:'Roboto Condensed', Verdana;
                     position:fixed;
                     top:0px;
-                    width:56in;
+                    max-width:56in;
                     font-size:30px;
+                    width:14.2in;
 				}
 
 				img {
@@ -36,13 +37,22 @@
 				li a {
 				    display: block;
 				    color: white;
-				    text-align: center;
 				    padding: 12px 16px;
 				    text-decoration: none;
 				}
 
 				li a:hover {
 				    background-color:red;
+				}
+
+				 #login {
+					float:right;
+				}
+
+
+
+				#signup {
+					float:right;
 				}
 
 				.active {
@@ -109,9 +119,11 @@
 				<ul id="list">
 					
 					<li><a href="#games">Games</a></li>
-					<li><a href="#news">News</a></li>
 					<li id="login"><a href="#login">Login</a></li>
-					<li id="login"><a href="#signup">Signup</a></li>
+					<li id="signup"><a href="#signup">Signup</a></li>
+					<li><a href="#tech">Tech</a></li>
+					<li><a href="#sports">Sports</a></li>
+
 				</ul>
 				<h1 id="title">Kids News Network</h1>
 		</body>
